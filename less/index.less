@@ -1,3 +1,67 @@
-h1 {
-    color: red;
+@import './reset.less';
+
+header {
+    background: url('../img/hero.jpg');
+    background-size: cover;
+    height: 500px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.nav-menu {
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-menu li {
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    border-bottom: .5px solid white;
+    font-size: 10px;
+}
+
+.nav-middle {
+
+    padding-left: 27px;
+    padding-right: 40px;
+
+    .logo-text {
+        display: flex;
+        align-items: center;
+    }
+
+    .middle-text {
+        line-height: .8;
+        margin-left: 10px;
+
+        h2 {
+            font-family: 'Bebas Neue', cursive;
+            color:#4d4d4d;
+        }
+    
+        h2:nth-child(2) {
+            color: #414f6b;
+        }
+    }
+
+    .nav-menu li {
+        color: #414f6b;
+        border-bottom: .5px solid #414f6b;
+    }
+}
+
+section {
+    background: url('../img/image-1.jpg');
+    margin-top: 10px;
+    background-size: cover;
+    height: 500px;
 }

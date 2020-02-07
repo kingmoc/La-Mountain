@@ -4,11 +4,13 @@
 *::after {
   box-sizing: border-box;
 }
+
 /* Remove default padding */
 ul[class],
 ol[class] {
   padding: 0;
 }
+
 /* Remove default margin */
 body,
 h1,
@@ -26,6 +28,7 @@ dl,
 dd {
   margin: 0;
 }
+
 /* Set core body defaults */
 body {
   min-height: 100vh;
@@ -33,24 +36,29 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
+
 /* Remove list styles on ul, ol elements with a class attribute */
 ul[class],
 ol[class] {
   list-style: none;
 }
+
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
+
 /* Make images easier to work with */
 img {
   max-width: 100%;
   display: block;
 }
+
 /* Natural flow and rhythm in articles by default */
 article > * + * {
   margin-top: 1em;
 }
+
 /* Inherit fonts for inputs and buttons */
 input,
 button,
@@ -58,6 +66,7 @@ textarea,
 select {
   font: inherit;
 }
+
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   * {
@@ -66,58 +75,4 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-}
-header {
-  background: url('../img/hero.jpg');
-  background-size: cover;
-  height: 500px;
-}
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 10px;
-}
-.nav-menu {
-  list-style: none;
-  font-family: 'Lato', sans-serif;
-  width: 200px;
-  display: flex;
-  justify-content: space-around;
-}
-.nav-menu li {
-  display: inline-block;
-  text-transform: uppercase;
-  color: white;
-  border-bottom: 0.5px solid white;
-  font-size: 10px;
-}
-.nav-middle {
-  padding-left: 27px;
-  padding-right: 40px;
-}
-.nav-middle .logo-text {
-  display: flex;
-  align-items: center;
-}
-.nav-middle .middle-text {
-  line-height: 0.8;
-  margin-left: 10px;
-}
-.nav-middle .middle-text h2 {
-  font-family: 'Bebas Neue', cursive;
-  color: #4d4d4d;
-}
-.nav-middle .middle-text h2:nth-child(2) {
-  color: #414f6b;
-}
-.nav-middle .nav-menu li {
-  color: #414f6b;
-  border-bottom: 0.5px solid #414f6b;
-}
-section {
-  background: url('../img/image-1.jpg');
-  margin-top: 10px;
-  background-size: cover;
-  height: 500px;
 }
