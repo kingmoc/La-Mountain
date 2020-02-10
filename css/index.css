@@ -153,5 +153,58 @@ section .head-text {
   background: url('../img/carousel-background.jpg');
   background-position: center center;
   background-size: cover;
-  height: 140px;
+  height: 194px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bottom-mountain .carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.bottom-mountain .carousel img {
+  margin: 0 5px;
+}
+.bottom-mountain .dots {
+  display: flex;
+  justify-content: center;
+}
+.bottom-mountain .dots #circle {
+  background: #515d72;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  margin: 0 3px;
+}
+.number-two {
+  background: none;
+  margin-top: 0px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.number-two .head-text {
+  width: 0;
+  width: 20%;
+  margin: 0;
+  margin-left: 173px;
+}
+.number-two .head-text h1 {
+  color: #a0a7b5;
+}
+.number-two p {
+  width: 40%;
+  margin: 0;
+}
+.mountain-row {
+  background-color: #414f6b;
+  height: 41px;
+}
+.snow-mountain {
+  background: url('../img/image-2.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 548px;
 }
