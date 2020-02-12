@@ -167,16 +167,22 @@ section .head-text {
 .bottom-mountain .carousel img {
   margin: 0 5px;
 }
+.bottom-mountain .carousel .material-icons {
+  color: #ffffff75;
+}
 .bottom-mountain .dots {
   display: flex;
   justify-content: center;
 }
-.bottom-mountain .dots #circle {
+.bottom-mountain .dots .circle {
   background: #515d72;
   border-radius: 50%;
   width: 5px;
   height: 5px;
   margin: 0 3px;
+}
+.bottom-mountain .dots #active {
+  background: white;
 }
 .number-two {
   background: none;
